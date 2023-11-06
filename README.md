@@ -25,10 +25,10 @@ Iniziamo a scomporre il problema in piccoli passaggi.
  3. Calcolare il totale del prezzo, dichiarando una variabile di tipo let **ticketPrice** (la dichiariamo di tipo let perché potremmo riassegnare alla stessa variabile un altro valore nel caso in cui dovremmo applicare uno sconto), alla quale assegneremo il prodotto tra **userKm** e il fattore fisso che in questo caso è **€0.21 al km**.
 
  4. Dichiariamo 3 condizioni come segue:
-    - se **userAge** è < di "18", l'operazione da effettuare sarà la sottrazione tra **ticketPrice** e 20% (usiamo il metodo _toFixed()_ che ci permette di selezionare il numero con massimo 2 decimali).
-    - altrimenti se **userAge** è >=  di "65", l'operazione da effettuare sarà la sottrazione tra **ticketPrice** e 40% (usiamo il metodo _toFixed()_ anche in questo caso).
+    - se **userAge** è < di "18", l'operazione da effettuare sarà la sottrazione tra **ticketPrice** e 20%.
+    - altrimenti se **userAge** è >=  di "65", l'operazione da effettuare sarà la sottrazione tra **ticketPrice** e 40%.
     - altrimenti **ticketPrice** sarà stampato senza effettuare ulteriori operazioni.
 
-5. Stampiamo in console il valore di **ticketPrice** preceduto dalla stringa "Il prezzo del tuo biglietto è: "
+5. Stampiamo in console il valore di **ticketPrice** (usiamo il metodo _toFixed()_ che ci permette di selezionare il numero con massimo 2 decimali), preceduto dalla stringa "Il prezzo del tuo biglietto è: ".
 
 L'esercizio è completato.
