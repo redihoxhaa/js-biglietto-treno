@@ -11,4 +11,3 @@ if (userAge < 18) {
 } else {
     console.log("Il prezzo del tuo biglietto è: " + ticketPrice.toFixed(2));
 }
-
