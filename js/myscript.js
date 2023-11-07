@@ -1,8 +1,8 @@
 const pricePerKm = 0.21;
 const discount18 = 0.2;
 const discount65 = 0.4;
-const userKm = parseInt(prompt("Inserisci i km che desideri percorrere"));
-const userAge = parseInt(prompt("Inserisci la tua età"));
+const userKm = Number(prompt("Inserisci i km che desideri percorrere"));
+const userAge = Number(prompt("Inserisci la tua età"));
 let ticketPrice = userKm * pricePerKm;
 
 if (userAge < 18) {
