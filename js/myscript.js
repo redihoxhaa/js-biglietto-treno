@@ -11,4 +11,4 @@ if (userAge < 18) {
     ticketPrice = ticketPrice - (ticketPrice * discount65);
 }
 
-console.log("Il prezzo del tuo biglietto è: " + ticketPrice.toFixed(2));
+console.log("Il prezzo del tuo biglietto è: ", Number(ticketPrice.toFixed(2)));
